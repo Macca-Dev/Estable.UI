@@ -2,3 +2,15 @@ node_modules
 bower_components
 
 .idea
+database.sqlite
+npm-debug.log
+ncp-debug.log
+build
+
+#Mac OS
+.DS_Store
+.DS_Store?
+
+._*
+.Spotlight-V100
+.Trashes
