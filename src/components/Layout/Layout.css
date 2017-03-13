@@ -9,6 +9,7 @@
 
 @import '../variables.css';
 
+@global-import 'grommet/grommet.min.css' ;
 @global-import 'normalize.css' ;
 
 /*
