@@ -7,10 +7,10 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
-@import '../variables.css';
-
 @global-import 'grommet/grommet.min.css' ;
 @global-import 'normalize.css' ;
+
+@import '../variables.css';
 
 /*
  * Base styles
