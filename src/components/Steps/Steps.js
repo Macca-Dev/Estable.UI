@@ -9,7 +9,7 @@ class Steps extends Component {
     super();
 
     this.state = {
-      activeIndex: 1,
+      activeIndex: 0,
     };
 
     this.onClick = this.onClick.bind(this);
