@@ -90,7 +90,7 @@ app.use('/graphql', expressGraphQL(req => ({
 app.get('*', async (req, res, next) => {
   try {
     const store = configureStore({
-      user: req.user || null,
+      user: req.user || {},
     }, {
       cookie: req.headers.cookie,
     });

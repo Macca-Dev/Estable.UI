@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Tabs from 'grommet/components/Tabs';
 import Tab from 'grommet/components/Tab';
 
-
 const NOOP = () => {};
 
 class Steps extends Component {

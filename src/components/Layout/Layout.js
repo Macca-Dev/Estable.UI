@@ -13,7 +13,7 @@ class Layout extends Component {
   render() {
     return (
       <App>
-        <Header />
+        <Header/>
         {this.props.children}
         <Footer />
       </App>
@@ -21,4 +21,7 @@ class Layout extends Component {
   }
 }
 
-export default withStyles(s)(Layout);
+
+const ComponentWithStyles = withStyles(s)(Layout);
+
+export default (ComponentWithStyles);
