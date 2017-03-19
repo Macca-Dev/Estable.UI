@@ -7,7 +7,7 @@ import Link from '../Link';
 import Navigation from '../Navigation';
 import logoUrl from './logo-small.png';
 import logoUrl2x from './logo-small@2x.png';
-
+const app;
 class Header extends Component {
   render() {
     return (
