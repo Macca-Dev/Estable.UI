@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import GrommetHeader from 'grommet/components/Header';
-import Title from 'grommet/components/Title';
 import s from './Header.css';
 import Link from '../Link';
 import Navigation from '../Navigation';
@@ -15,12 +14,8 @@ class Header extends Component {
         <div className={s.container}>
           <Navigation />
           <Link className={s.brand} to="/">
-            <img src={logoUrl} srcSet={`${logoUrl2x} 2x`} width="250" height="250" alt="Estable" />
-            <span className={s.brandTxt}>fay@gmail.com</span>
+            <img src={logoUrl} srcSet={`${logoUrl2x} 2x`} width="180" height="180" alt="Estable" />
           </Link>
-          <Title>Estable
-            <p className={s.bannerDesc}>Something good here</p>
-          </Title>
         </div>
       </GrommetHeader>
     );

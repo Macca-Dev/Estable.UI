@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Tabs from 'grommet/components/Tabs';
 import Tab from 'grommet/components/Tab';
+import Stable from './Stable';
 
 const NOOP = () => {};
 
@@ -27,11 +28,7 @@ class Steps extends Component {
       <Tabs onActive={this.onClick} activeIndex={activeIndex}>
         <Tab title="Stable">
           <p>Stable</p>
-          <input
-            type="text"
-            value=""
-            onChange={NOOP}
-          />
+          <Stable />
         </Tab>
         <Tab title="Financial">
           <p>Financial</p>
@@ -42,7 +39,7 @@ class Steps extends Component {
           />
         </Tab>
         <Tab title="Charge Types">
-          <p>Financial</p>
+          <p>Charge Types</p>
           <input
             type="text"
             value=""
@@ -50,14 +47,15 @@ class Steps extends Component {
           />
         </Tab>
         <Tab title="Horses">
-          <p>Financial</p>
+          <p>Horses</p>
           <input
             type="text"
             value=""
             onChange={NOOP}
           />
         </Tab>
-        <Tab title="Financials">
+        <Tab title="Owners">
+        <p>Owners</p>
           <input
             type="text"
             value=""
@@ -65,6 +63,7 @@ class Steps extends Component {
           />
         </Tab>
         <Tab title="Summary">
+        <p>Summary</p>
           <input
             type="text"
             value=""
